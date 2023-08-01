@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+}
+article > main {
+  flex-basis: 60%;
+  aspect-ratio: 2 / 1;
+  background-attachment: fixed;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article > aside {
+  flex-basis: 40%;
+  display: grid;
+  align-content: center;
+}
+
+article:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+article:nth-of-type(odd) > main {
+  background-position: right;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 40px;
+}
+p {
+  font-family: "Roboto Slab", serif;
+  margin: 30px;
+}
