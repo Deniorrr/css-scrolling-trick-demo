@@ -1,2 +1,5 @@
 # css-scrolling-trick-demo
-An execution of an small idea, that i might use some day
+A small idea, that I might use some day
+
+## Link
+https://deniorrr.github.io/css-scrolling-trick-demo/
