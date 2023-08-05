@@ -35,7 +35,7 @@ article:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 article:nth-of-type(odd) > main {
-  background-position: right;
+  background-position: right; /* Can delete if aligning every odd image to right is not needed */
 }
 
 h2 {
